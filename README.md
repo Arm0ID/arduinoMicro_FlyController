@@ -1,2 +1,18 @@
-# arduinoMicro_FlyController
-This project demonstrates how to use four potentiometers to create a joystick interface using Arduino. The sketch reads analog values from the potentiometers and maps them to joystick axes, providing a simple way to control movement in applications that support joystick input.
+# Джойстик на основе потенциометров с использованием Arduino
+## Описание
+Этот проект демонстрирует, как использовать четыре потенциометра для создания интерфейса джойстика с помощью Arduino. Эскиз (скетч) считывает аналоговые значения с потенциометров и отображает их на осях джойстика, обеспечивая простой способ управления движением в приложениях, поддерживающих ввод джойстика.
+
+## Структура проекта
+`sketch.ino` — основной файл с кодом для Arduino.
+* Подключите потенциометры к аналоговым выводам A0, A1, A2, A3 и к GND/VCC.
+## Используемые компоненты
+* Arduino (например, Arduino Uno)
+* 4 потенциометра
+* Соединительные провода
+## Установка
+* Скачайте или клонируйте репозиторий.
+* Подключите потенциометры к соответствующим пинам на Arduino.
+* Загрузите файл `micro_flyController.ino` в вашу плату Arduino.
+* Подключите Arduino к вашему компьютеру.
+## Примечания
+*Возможно когда-нибудь оно превратится в руль на 20000 градусов...*
